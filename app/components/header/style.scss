@@ -1,0 +1,35 @@
+@import "../../styles/config.scss";
+
+.root {
+  display: flex;
+  align-items: center;
+  height: 52px;
+  font-size: 11px;
+  background: linear-gradient(to bottom,  #373a3e 0%,#0f0f0f 100%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 960px;
+}
+
+.subscribe {
+  color: #485766;
+  font-family: Verdana;
+
+  a {
+    color: #6a87a3;
+  }
+}
+
+.input {
+  padding: 7px 5px;
+  color: white;
+  border-radius: 10px;
+  border-color: #131415;
+  border-bottom-color: #292c2f;
+  border-top-color: #18191b;
+  background: #0f1010;
+}
